@@ -1,5 +1,26 @@
+h1 {
+font-size: 30px;
+}
+
 body {
 	background-color: black;
 	color: yellow;
 	font-family: monospace;
+}
+
+img {
+	border-radius: 5%;
+	text-align: center;
+}
+
+.desc {
+	font-size: 20px;
+}
+.ingredients, .steps {
+	font-size: 20px;
+	border: 50px;
+	border-color: green;
+	border-radius: 50px;
+	margin: 30px;
+	padding: 30px;
 }

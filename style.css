@@ -3,4 +3,22 @@ body {
 	background-color: black;
 	color: yellow;
 	font-family: monospace;
+	font-size: 30px;
+}
+
+.container {
+	width: 100px;
+	margin: 50px auto;
+	padding: 5px 20px;
+	border-radius: 4px;
+	font-size: 20px;
+}
+
+.neonbox {
+	box-shadow: 0 0 7px yellow;
+}
+
+.neon-text {
+        text-shadow:0 0 7px #6a00ff,
+                    0 0 14px #6a00ff;
 }
