@@ -1,11 +1,9 @@
-h1 {
-font-size: 30px;
-}
-
 body {
+	text-align: center;
 	background-color: black;
 	color: yellow;
 	font-family: monospace;
+	font-size: 30px;
 }
 
 img {
@@ -13,10 +11,11 @@ img {
 	text-align: center;
 }
 
-.desc {
-	font-size: 20px;
+ul {
+	list-style: inside;
 }
-.ingredients, .steps {
+
+.ingredients, .steps, .desc {
 	font-size: 20px;
 	border: 50px;
 	border-color: green;
@@ -24,3 +23,7 @@ img {
 	margin: 30px;
 	padding: 30px;
 }
+
+ .neonbox {
+        box-shadow: 0 0 7px yellow;
+ }
