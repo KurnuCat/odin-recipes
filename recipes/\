@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Pizza</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+
+    <h1>Pizza</h1>
+    <img
+      src="https://www.kotikokki.net/media/cache/large/recipeimage/large/52d6dbc7d074a9ec0e0704f7/original.jpg?1297439822"
+      alt="pizza on a baking sheet"
+      style="width: 500px; height: 500px"
+    />
+
+  <div class="neonbox desc">
+    <h2>Description:</h2>
+    <p>Delicious pizza base with fillings of your choice</p>
+  </div>
+
+  <div class="gridcontainer">
+	  <div> class="griditems neonbox scrollable">
+	  <h3>Ingredients:</h3>
+    <ul>
+      <li>½ pack dry yeast</li>
+      <li>2 dl water</li>
+      <li>1 tsp salt</li>
+      <li>3 tbsp oil</li>
+      <li>5 dl wheat flour</li>
+    </ul>
+  </div>
+
+  <div class="griditems neonbox scrollable">
+    <h4>Steps:</h4>
+    <ol>
+      <li>Mix the yeast into lukewarm water, add salt and oil.</li>
+      <li>
+        Mix in the wheat flour and if needed more than (5dl) so that the dough
+        doesn't stick to your fingers.
+      </li>
+      <li>Let the dough rise in a bowl under a cloth for approx. 30 min.</li>
+      <li>
+        Roll out, fill and bake in a 225°C (435°F) oven for approx. 20 min.
+      </li>
+      <li>(Fillings of your choice)</li>
+      </div>
+    </ol>
+  </div>
+  </body>
+</html>

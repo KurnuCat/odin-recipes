@@ -1,7 +1,7 @@
 body {
 	text-align: center;
-	background-color: black;
-	color: yellow;
+	background-color: white;
+	color: purple;
 	font-family: monospace;
 	font-size: 30px;
 }
@@ -13,13 +13,24 @@ body {
 	border-radius: 4px;
 	font-size: 20px;
 	text-decoration: none;
+	display: inline-block;
+	color: beige;
+	background-color: beige;
 }
 
 .neonbox {
-	box-shadow: 0 0 7px yellow;
+	box-shadow: 0 0 7px black;
+}
+
+.neonbox:hover {
+  box-shadow: 0 0 15px black; /* Increases glow on hover */
 }
 
 .neon-text {
         text-shadow:0 0 7px #6a00ff,
                     0 0 14px #6a00ff;
+}
+
+.nounderline a {
+	text-decoration: none;
 }
